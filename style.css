@@ -1,0 +1,282 @@
+/*multi donut*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sequence {
+  height: 50px;
+}
+
+.sequence text,
+.legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+.chart {
+  position: relative;
+}
+
+.chart path {
+  stroke: #fff;
+}
+
+.explanation {
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 110px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: 77;
+}
+
+#chart svg {
+  padding-left: 3px !important;
+  padding-top: 3px !important;
+  /*padding-bottom: 10px !important;*/
+}
+
+.percentage {
+  font-size: 2.5em;
+}
+
+.chartMain {
+  width: 360px;
+  margin: 0 auto;
+}
+
+#chart4 .jqplot-table-legend {
+  margin-top: 30px;
+}
+
+.pageMenuItems {
+  float: left;
+  width: 14.7% !important;
+}
+
+.pageMenuItems.lastItems {
+  float: left;
+  width: 4% !important;
+}
+
+.pageMenuItems.lastItems i {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.pageMenuItems select {
+  float: left;
+  width: 100% !important;
+}
+
+.treeMapname {
+  font-size: 25px;
+  font-weight: bold;
+  fill: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.treeMapnameMobil {
+  font-size: 7px;
+}
+
+.treeMapTittle {
+  font-weight: bold;
+  font-size: 18px;
+  fill: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.treeMapTittleMobile {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#s2id_selectBox1,
+#s2id_selectBox2,
+#s2id_selectBox3,
+#s2id_selectBox4,
+#s2id_selectBox5,
+#s2id_RelatedSelectBox,
+#s2id_selectBox6,
+#s2id_categorySelect {
+  width: 100%;
+}
+
+
+/*scroll Menu*/
+
+.main-nav {
+  position: relative;
+  padding: 20px;
+}
+
+.main-nav {
+  background: #fff;
+  /*height: 80px;*/
+  z-index: 150;
+  margin-bottom: -80px;
+  /* box-shadow: 0 2px 3px rgba(0,0,0,.4);*/
+}
+
+.main-nav-scrolled {
+  /* position: fixed;
+  top: 60px;*/
+  position: relative;
+}
+
+
+/*scroll Menu*/
+
+.jqplot-table-legend {
+  margin-top: 10px;
+}
+
+#Valueparameter8 {
+  font-size: 45px;
+  margin-top: 22px;
+}
+
+#topPageMenu {
+  display: none;
+}
+
+#filterIcon {
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: 88px;
+  right: 60px;
+}
+
+.pageRadioButton {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -7px;
+}
+
+.z-i-7 {
+  z-index: 77;
+}
+
+.dataVal {
+  margin-left: 0 !important;
+  font-size: 35px;
+}
+
+.f-s-25 {
+  font-size: 25px;
+}
+
+
+/*treemap start*/
+
+#chart {
+  width: 98%;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+text {
+  pointer-events: none;
+  font-family: sans-serif;
+  font-size: smaller;
+}
+
+.grandparent text {
+  font-weight: bold;
+  font-size: 14px;
+  fill: #fff;
+}
+
+.grandparent rect {
+  stroke-width: 6px !important;
+  fill: #a0a0a0 !important;
+}
+
+rect {
+  fill: none;
+  stroke: #fff;
+}
+
+rect.child {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 1px;
+  stroke-dasharray: 3, 5;
+  stroke-opacity: 0.3;
+}
+
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+rect.parent {
+  stroke-width: 7px;
+}
+
+.grandparent rect {
+  fill: orange;
+}
+
+.grandparent:hover rect {
+  fill: #7D8180 !important;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #def;
+  fill-opacity: 1;
+}
+
+.children:hover rect.child {
+  fill: #fff;
+  fill-opacity: 0.05;
+  cursor: pointer;
+}
+
+.overlaidText1 {
+  /*font-size: 4.2em;*/
+  font-size: 200%;
+  text-anchor: middle;
+  fill: #383838;
+  font-family: 'heroic_condensedregular';
+}
+
+.overlaidText {
+  /*font-size: 1.5em;*/
+  font-size: 150%;
+  text-anchor: middle;
+  fill: white;
+  fill-opacity: 1;
+  font-family: 'f_groteskthin';
+}
+
+@media(max-width: 678px) {
+  .overlaidText1 {
+    font-size: 0.7em !important;
+  }
+  .overlaidText {
+    font-size: 0.8em !important;
+  }
+}
+
+svg {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Open Sans';
+  overflow: hidden;
+}
+
+
+/*treemap end*/
